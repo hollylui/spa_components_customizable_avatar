@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+/* All buttons ------------------------*/
+button {
+  border: none;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px 15px 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: skyblue;
+}
+
+/* Image Size ---------------------------- */
+.imgSizeBtns {
+  background-color: rgb(255, 255, 205);
+}
+
+/* Image Shape ---------------------------- */
+.imgShapeBtns {
+  background-color: rgb(205, 255, 253);
+}
+
+.square {
+  border: none;
+}
+
+.round {
+  border-radius: 8px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* DRY */
+.imgSizeBtns,
+.imgShapeBtns,
+.imageInfo {
+  padding: 10px;
+}
+
+.square,
+.round,
+.circle {
+  margin-top: 10px;
+}
+
+/* image and information -------------------------- */
+.imageInfo {
+  background-color: rgb(252, 226, 197);
+}
+
+p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
